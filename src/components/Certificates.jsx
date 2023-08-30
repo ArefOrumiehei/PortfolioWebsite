@@ -3,7 +3,7 @@ import '../scss/Certificates.scss';
 
 const Certificates = () => {
     return (
-        <div className='certificates'>
+        <div className='certificates' id='certificates'>
             certificates
         </div>
     );
