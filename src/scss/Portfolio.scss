@@ -1,3 +1,74 @@
+@import '../global.scss';
+
 .portfolio {
-    background-color: fuchsia;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 10px;
+
+        li {
+            font-size: 14px;
+            margin-right: 50px;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &.active {
+                background-color: $mainColor;
+                color: #fff;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+
+        .item {
+            width: 220px;
+            height: 150px;
+            border: 1px solid gainsboro;
+            border-radius: 20px;
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer;
+            
+            img {
+                height: 100%;
+                z-index: 1;
+                object-fit: cover;
+            }
+
+            h3{
+                font-size: 20px;
+                position: absolute;
+            }
+
+            &:hover {
+                background-color: #3f3f3fd0;
+
+                img {
+                    opacity: .2;
+                    z-index: 0;
+                }
+            }
+        }
+    }
 }
