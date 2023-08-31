@@ -162,3 +162,28 @@ export const contentPortfolio = [
         img : 'https://images.pexels.com/photos/167703/pexels-photo-167703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
 ]
+
+
+export const sliderData = [
+    {
+        id : 1,
+        icon : 'web',
+        title : 'Web Application',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, qui incidunt quam laborum expedita magnam.',
+        img : 'https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    },
+    {
+        id : 2,
+        icon : 'mobile',
+        title : 'Mobile Application',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, qui incidunt quam laborum expedita magnam.',
+        img : 'https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    },
+    {
+        id : 3,
+        icon : 'icons',
+        title : 'Branding',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, qui incidunt quam laborum expedita magnam.',
+        img : 'https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    },
+]

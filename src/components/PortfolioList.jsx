@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 
 //Styles
-import '../scss/PortfolioList.scss'
 
 const PortfolioList = ({title , id , active , setSelected}) => {
     return (

@@ -1,3 +1,106 @@
 .works {
-    background-color: green;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow {
+        position: absolute;
+        cursor: pointer;
+
+        &.left {
+            left: 100px;
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+
+    .slider {
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: flex;
+        transition: all 1s ease-out;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+
+            .item {
+                width: 700px;
+                height: 100%;
+                background-color: #fff;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .left {
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer {
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .iconContainer {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: cornflowerblue;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .right {
+                    flex: 8;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+
+                    img {
+                        width: 400px;
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+        }
+    }
+
 }
