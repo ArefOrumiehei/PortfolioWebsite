@@ -1,1 +1,8 @@
-$mainColor : #15023a
+$mainColor : #15023a;
+
+//Responsive
+@mixin tablet {
+    @media screen and (max-width : 768px) {
+        @content;
+    }
+}
