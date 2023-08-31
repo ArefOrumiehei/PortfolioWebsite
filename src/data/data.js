@@ -187,3 +187,31 @@ export const sliderData = [
         img : 'https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
 ]
+
+
+export const teamData = [
+    {
+        id : 1 , 
+        name : 'Aref Orumiehei',
+        title : 'Front-end Dev',
+        img : 'https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        description : 'Lorem voluptates dicta facilis, nam reprehenderit hic mollitia qui delectus cupiditate incidunt facere earum pariatur, eaque dolores placeat iusto? Necessitatibus, suscipit!',
+        featured : false,
+    },
+    {
+        id : 2 , 
+        name : 'Aref Orumiehei',
+        title : 'Front-end Dev',
+        img : 'https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        description : 'Lorem voluptates dicta facilis, nam reprehenderit hic mollitia qui delectus cupiditate incidunt facere earum pariatur, eaque dolores placeat iusto? Necessitatibus, suscipit!',
+        featured : true,
+    },
+    {
+        id : 3 , 
+        name : 'Aref Orumiehei',
+        title : 'Front-end Dev',
+        img : 'https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        description : 'Lorem voluptates dicta facilis, nam reprehenderit hic mollitia qui delectus cupiditate incidunt facere earum pariatur, eaque dolores placeat iusto? Necessitatibus, suscipit!',
+        featured : false,
+    },
+]

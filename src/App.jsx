@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
 import Works from './components/Works'
-import Certificates from './components/Certificates'
+import Team from './components/Team'
 import Contact from './components/Contact'
 import Menu from './components/Menu'
 
@@ -24,7 +24,7 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Certificates/>
+        <Team/>
         <Contact/>
       </div>
     </div>
