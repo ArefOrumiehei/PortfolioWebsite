@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .portfolio {
-    background-color: whitesmoke;
+    background-color: $mainColor;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -37,8 +37,8 @@
             }
 
             &.active {
-                background-color: $mainColor;
-                color: #fff;
+                background-color: $menuColor;
+                color: $mainColor;
             }
         }
     }
@@ -85,7 +85,7 @@
             }
 
             &:hover {
-                background-color: $mainColor;
+                background-color: $secondaryColor;
 
                 img {
                     opacity: .2;

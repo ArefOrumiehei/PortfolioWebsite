@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .team {
-    background-color: white;
+    background-color: $mainColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@
             .center {
                 padding: 10px;
                 border-radius: 10px;
-                background-color: aliceblue;
+                background-color: #dbdbdb;
 
                 @include tablet {
                     font-size: 12px;

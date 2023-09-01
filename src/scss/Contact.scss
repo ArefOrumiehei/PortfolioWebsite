@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .contact {
-    background-color: whitesmoke;
+    background-color: $mainColor;
     display: flex;
 
     @include tablet {
@@ -68,7 +68,7 @@
                 height: 30px;
                 padding: 5px;
                 color: white;
-                background-color: crimson;
+                background-color: $secondaryColor;
                 border: none;
                 border-radius: 10px;
                 cursor: pointer;

@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .intro {
-    background-color: #fff;
+    background-color: $mainColor;
     display: flex;
 
     @include tablet {
@@ -18,7 +18,7 @@
             width: 680px;
             height: 680px;
             border-radius: 50%;
-            background-color: crimson;
+            background-color: $secondaryColor;
             display: flex;
             align-items: flex-end;
             justify-content: center;
@@ -78,7 +78,7 @@
 
                 span {
                     font-size: inherit;
-                    color: crimson;
+                    color: $secondaryColor;
                 }
 
                 .ityped-cursor {
