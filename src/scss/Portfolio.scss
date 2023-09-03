@@ -8,9 +8,18 @@
 
     h1 {
         font-size: 50px;
+        overflow: hidden;
+
+        @include desktop {
+            font-size: 40px;
+        }
 
         @include tablet {
             font-size: 30px;
+        }
+
+        @include mobile {
+            font-size: 20px;
         }
     }
 
@@ -25,15 +34,32 @@
             justify-content: center;
         }
 
+        @include mobile {
+            margin: 5px;
+        }
+
         li {
             font-size: 14px;
             margin-right: 50px;
             padding: 7px;
             border-radius: 10px;
             cursor: pointer;
+            overflow: hidden;
+
+
+            @include desktop {
+                font-size: 12px;
+                padding: 5px 10px;
+            }
 
             @include tablet {
                 margin-right: 10px;
+            }
+
+            @include mobile {
+                font-size: 10px;
+                margin-right: 12px;
+                padding: 2px 5px;
             }
 
             &.active {
@@ -71,6 +97,10 @@
             @include tablet {
                 width: 130px;
                 height: 100px;
+            }
+
+            @include mobile {
+                width: 100px;
             }
             
             img {
