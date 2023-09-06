@@ -1,3 +1,6 @@
+import { useEffect, useRef } from 'react';
+import { init } from 'ityped';
+
 //Styles
 import '../scss/Intro.scss';
 
@@ -6,8 +9,6 @@ import Picture from '../assets/images/ryangoslingNoBG.jpg'
 
 //Icons
 import { IconChevronDown } from '@tabler/icons-react';
-import { useEffect, useRef } from 'react';
-import { init } from 'ityped';
 
 
 const Intro = () => {

@@ -1,9 +1,10 @@
+import { useState } from 'react';
+
 //Styles
 import '../scss/Contact.scss';
 
 //Image
 import contactImg from '../assets/images/website-content-sections.png'
-import { useState } from 'react';
 
 const Contact = () => {
 

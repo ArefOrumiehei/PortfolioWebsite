@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 
-//Styles
 
 const PortfolioList = ({title , id , active , setSelected}) => {
     return (

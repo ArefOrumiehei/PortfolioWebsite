@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 //Icons
 import { IconChevronLeft, IconChevronRight, IconDeviceMobileCode, IconIcons, IconWorldCode } from '@tabler/icons-react';
 
@@ -6,7 +8,6 @@ import '../scss/Works.scss';
 
 //Data
 import { sliderData } from '../data/data';
-import { useState } from 'react';
 
 
 const Works = () => {

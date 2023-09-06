@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
+
+//Data
 import { featuredPortfolio , webPortfolio , mobilePortfolio , designPortfolio , contentPortfolio} from '../data/data'
+
 //Styles
 import '../scss/Portfolio.scss';
 
